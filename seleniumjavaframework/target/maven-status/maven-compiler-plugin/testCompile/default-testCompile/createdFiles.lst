@@ -1,0 +1,5 @@
+com\demowebshop\pages\RegisterPage.class
+com\demowebshop\pages\LoginPage.class
+com\demowebshop\testscripts\Register.class
+com\demowebshop\pages\ShoppingCartPage.class
+com\demowebshop\testBase\TestBase.class
