@@ -15,6 +15,9 @@ public class LoginPage {
 		// TODO Auto-generated constructor stub
 		this.driver= driver;
 		System.out.println("testing message");
+		System.out.println("testing message");
+		System.out.println("testing message");
+		System.out.println("testing message");
 	}
 	
 	// Page Object Mechanism
