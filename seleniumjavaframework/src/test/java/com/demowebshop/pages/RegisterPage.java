@@ -6,11 +6,6 @@ import com.demowebshop.testBase.TestBase;
 
 public class RegisterPage {
 
-	/*
-	 *  Page Object Model
-	 *  a. Page Object Method
-	 *  b. Page Factory.
-	 */
 	 WebDriver driver;
 	
 	 By registerh1 = By.xpath("//*[@class='page-title']/h1");
