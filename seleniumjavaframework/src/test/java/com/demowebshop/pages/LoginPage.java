@@ -17,7 +17,6 @@ public class LoginPage {
 		System.out.println("testing message");
 		System.out.println("testing message");
 		System.out.println("testing message");
-		System.out.println("testing message");
 	}
 	
 	// Page Object Mechanism
