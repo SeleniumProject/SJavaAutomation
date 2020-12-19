@@ -4,7 +4,7 @@
 	<test name="Demo Shop Tests">
 
 		<classes>
-			<class name="com.demowebshop.testscripts.Register" />
+			<class name="com.demowebshop.testscripts.Guru99LoginTest" />
 		</classes>
 	</test> <!-- Test -->
 

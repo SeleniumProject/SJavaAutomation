@@ -16,7 +16,7 @@ public class Register extends TestBase{
 	RegisterPage registerPage;
 	
 	@BeforeClass
-	public void setup() throws IOException {
+	public void setup() throws IOException, InterruptedException {
 		// Invoke the Browser
 		invoke();
 		registerPage = new RegisterPage(driver);

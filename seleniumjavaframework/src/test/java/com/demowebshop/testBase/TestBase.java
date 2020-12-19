@@ -43,6 +43,8 @@ public class TestBase {
 		SimpleDateFormat formatter = new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss");
 		
 		extent = new ExtentReports(System.getProperty("user.dir")+"/testreport/"+formatter.format(cal.getTime())+".html",false);
+	   extent.addSystemInfo("Environment", "QA");
+	   extent.addSystemInfo("Site URL", "https://demo.guru99.com/v4/");
 	}
 	public void properties() throws IOException {
 		prop = new Properties();
@@ -101,12 +103,13 @@ public class TestBase {
 		return email;
 	}
 	
-	public void invoke() throws IOException {
+	public void invoke() throws IOException, InterruptedException {
 		properties();
 		System.out.println("Running Browser name");
 		invokeBrowser("Chrome");
 		driver.get(prop.getProperty("url"));
 		driver.manage().window().maximize();
+		Thread.sleep(5000);
 		
 	}
 	@SuppressWarnings("deprecation")

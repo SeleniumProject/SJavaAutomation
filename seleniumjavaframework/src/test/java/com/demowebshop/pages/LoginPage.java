@@ -31,7 +31,7 @@ public class LoginPage {
 	}
 	
 	public void enterPassword(String password) {
-		driver.findElement(uname).sendKeys(password);
+		driver.findElement(pwd).sendKeys(password);
 	
 	}
 	public void clickLogin() {
