@@ -37,7 +37,7 @@ public class Guru99LoginTest extends TestBase {
 
 	public Object[][] LoginMethod() {
 
-	return new Object [][] { {"Guru99 Bank Home Page","mngr300680","AgArAru","Guru99 Bank Manager HomePage"},
+	return new Object [][] { {"Guru99 Bank Home Page","mngr368482","yzubuvy","Guru99 Bank Manager HomePage"},
 		};
 
 	}
@@ -47,7 +47,6 @@ public class Guru99LoginTest extends TestBase {
 			String dPageTitle) {
 
 		try {
-
 			test = extent.startTest("TC01_VerifyLoginsucessfullwithvalidcredentials");
 			test.log(LogStatus.PASS, "Verify the Login Page Title " + loginPage.Title());
 
